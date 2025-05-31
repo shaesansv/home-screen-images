@@ -1,12 +1,13 @@
 .hero {
   margin: 0px 120px;
-  margin-top: 270px;
+  margin-top: 350px;
+  margin-left: -200px;
 }
 .hero-text {
   color: black;
   font-size: 90px;
   font-weight: 500px;
-  line-height: 60px;
+  line-height: 90px;
 }
 .hero-explore {
   display: flex;
