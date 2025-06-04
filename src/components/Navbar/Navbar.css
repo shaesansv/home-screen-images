@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background: black;
-  border-radius: 20px;
+  padding: 10px 40px;
+  z-index: 1000;
+  border-radius: 0px;
   color: white;
-  padding: 5px;
 }
+
 .nav-logo {
   font-family: Outfit;
   font-size: 40px;
@@ -20,9 +25,12 @@
   font-size: 18px;
   gap: 70px;
 }
+.nav ul a {
+  color: white;
+  text-decoration: none;
+}
 .nav-contact {
   border-radius: 50px;
   padding: 10px 30px;
-  background: #fff;
-  color: #262626;
+  background: black;
 }

@@ -1,9 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Hero from "./components/Hero/Hero";
+import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Background from "./components/Background/Background";
 import Login from "./components/Login/Login";
+import About from "./components/About/About";
+import Explore from "./components/Exlpore/Explore";
+import Contact from "./components/Contact/Contact";
 import { useState } from "react";
 
 function App() {
@@ -18,14 +21,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} />
         <Route
-          path="/hero"
+          path="/"
           element={
             <>
               <Background heroCount={heroCount} />
               <Navbar />
-              <Hero
+              <Home
                 heroData={heroData[heroCount]}
                 heroCount={heroCount}
                 setHeroCount={setHeroCount}
@@ -33,6 +35,23 @@ function App() {
             </>
           }
         />
+        <Route
+          path="/Home"
+          element={
+            <>
+              <Background heroCount={heroCount} />
+              <Navbar />
+              <Home
+                heroData={heroData[heroCount]}
+                heroCount={heroCount}
+                setHeroCount={setHeroCount}
+              />
+            </>
+          }
+        />
+        <Route path="/Explore" element={<Explore />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );

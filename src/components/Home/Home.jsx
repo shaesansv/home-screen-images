@@ -1,17 +1,13 @@
 import React from "react";
-import "./Hero.css";
-import arrow3 from "../../assets/arrow3.png";
+import "./Home.css";
+import { Link } from "react-router-dom";
 
-const Hero = ({ heroData, setHeroCount, heroCount }) => {
+const Home = ({ heroData, setHeroCount, heroCount }) => {
   return (
     <div className="hero">
       <div className="hero-text">
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
-      </div>
-      <div className="hero-explore">
-        <p>Explore</p>
-        <img src={arrow3} alt="arrow" />
       </div>
       <div className="hero-dot-play">
         <ul className="hero-dots">
@@ -33,4 +29,4 @@ const Hero = ({ heroData, setHeroCount, heroCount }) => {
   );
 };
 
-export default Hero;
+export default Home;

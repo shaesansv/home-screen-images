@@ -9,8 +9,8 @@ const Login = () => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  const predefinedUsername = "admin";
-  const predefinedPassword = "123456";
+  const predefinedUsername = "saranya";
+  const predefinedPassword = "ammu2018";
 
   const handleSubmit = (e) => {
     e.preventDefault();
