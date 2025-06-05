@@ -36,3 +36,33 @@
 .hero-dot.orange {
   background: orangered;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    margin: 60px 20px 0 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    margin-top: 70vh;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 10px;
+  }
+
+  .hero-dot-play {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .hero-dots {
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .hero-dot {
+    width: 12px;
+    height: 12px;
+  }
+}

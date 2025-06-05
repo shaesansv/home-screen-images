@@ -44,8 +44,8 @@ const Home = () => {
         <footer className="footer">
           <div className="container">
             <p>
-              &copy; {new Date().getFullYear()} BrightFuture Tutorials. All
-              rights reserved.
+              &copy; {new Date().getFullYear()} Tut-Hub Tutorials. All rights
+              reserved.
             </p>
           </div>
         </footer>
