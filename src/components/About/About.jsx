@@ -6,7 +6,7 @@ import Background from "../Background/Background";
 import Navbar from "../Navbar/Navbar";
 
 const About = () => {
-  const [heroCount] = useState(0);
+  const [heroCount] = useState(1);
   return (
     <>
       <div className="about-page">

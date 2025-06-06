@@ -5,7 +5,7 @@ import Background from "../Background/Background";
 import Navbar from "../Navbar/Navbar";
 
 const Contact = () => {
-  const [heroCount] = useState(0);
+  const [heroCount] = useState(1);
   return (
     <>
       <div className="contact-page">
@@ -25,28 +25,17 @@ const Contact = () => {
               <label htmlFor="email">Email:</label>
               <input type="email" id="email" name="email" required />
             </div>
-
-            {/* <div className="form-group">
-              <label htmlFor="message">Message:</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required
-              ></textarea>
-            </div> */}
-
             <button type="submit">Send Message</button>
           </form>
 
           <div className="contact-info">
             <h3>Other Ways to Reach Us</h3>
             <p>
-              📍 Address: Sivakasi, India
+              Address: Sivakasi, India
               <br />
-              📞 Phone: +91 00000 00000
+              Phone: +91 00000 00000
               <br />
-              📧 Email: demo.email.com
+              Email: demo.email.com
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ const heroSlides = [
 ];
 
 const Home = () => {
-  const [heroCount] = useState(0);
+  const [heroCount] = useState(1);
 
   return (
     <>
