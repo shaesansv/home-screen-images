@@ -35,7 +35,7 @@ const Contact = () => {
               <br />
               Phone: +91 00000 00000
               <br />
-              Email: demo.email.com
+              Email: saranya1991@samp.com
             </p>
           </div>
         </div>

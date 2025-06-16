@@ -19,7 +19,6 @@ const Home = () => {
         <Navbar />
         <Background heroCount={heroCount} />
 
-        {/* Courses */}
         <section id="courses" className="courses-section">
           <div className="container">
             <h3>Top Courses</h3>
@@ -40,7 +39,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="footer">
           <div className="container">
             <p>
