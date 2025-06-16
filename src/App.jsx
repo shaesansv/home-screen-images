@@ -7,9 +7,6 @@ import About from "./components/About/About";
 import Explore from "./components/Exlpore/Explore";
 import Contact from "./components/Contact/Contact";
 import { useState } from "react";
-// App.jsx or App.js
-import app from "./firebase";
-console.log("Firebase App Initialized:", app.name);
 
 function App() {
   const [heroCount, setHeroCount] = useState(0);
